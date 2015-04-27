@@ -1,0 +1,12 @@
+// import font
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,500);
+
+@import "functions/rem";
+@import "grid";
+@import "colors";
+
+
+$column-width: 60;
+$gutter-width: 20;
+$columns: 12;
+$total-width: 100%;  // fluid grid

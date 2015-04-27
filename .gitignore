@@ -1,0 +1,7 @@
+/js/build/*.*
+/stylesheets/*.*
+/node_modules/*.*
+/nbproject/**
+/node_modules/
+/stylesheets/
+/.sass-cache/

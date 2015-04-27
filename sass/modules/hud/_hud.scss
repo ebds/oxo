@@ -1,0 +1,65 @@
+#starfield {
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: .2;
+
+		@include filter-gradient(#f2f6f8, #e0eff9, vertical);
+		// IE9 SVG, needs conditional override of 'filter' to 'none'
+		$experimental-support-for-svg: true;
+		@include background-image(linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,0.53) 50%, rgba(181,198,208,0.52) 51%, rgba(224,239,249,0.06) 100%));
+	}
+}
+
+.oxo__hud--top {
+	position: absolute;
+	left: 50%;
+	z-index: 999;
+	width: rem-calc(175);
+	top: 0;
+	text-align: center;
+	color: white;
+	@include transform(translate(-50%,0));
+
+	.oxo__headline--first {
+		margin-top: 5%;
+		font-size: rem-calc(50);
+		text-align: center;
+
+		@include textGlitch("OXO", 17, white, transparent, transparent, transparent, 900, 115);
+
+		.oxo__image {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.oxo__hud--bottom {
+	display: none;
+	position: absolute;
+	left: 50%;
+	z-index: 999;
+	bottom: 0;
+	text-align: center;
+	color: white;
+
+	@include columns(6);
+	@include transform(translate(-50%,0));
+
+	.oxo__nav {
+		position: relative;
+
+		.oxo__list-item {
+			display: inline-block;
+			float: left;
+			padding: rem-calc(10) rem-calc(15);
+		}
+	}
+}
