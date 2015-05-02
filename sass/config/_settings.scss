@@ -1,0 +1,22 @@
+// import gridle
+@import "gridle/gridle";
+$rem-base: 16;
+$settings : (
+	context : 12,             // number of columns in your grid
+	gutter-width : rem-calc(20),        // size of the gutters
+	direction : ltr,             // direction
+	name-multiplicator : 1     // to generate like grid-5, grid-10, etc...
+	// and more... (see in advanced settings section)
+);
+@include gridle_setup($settings);
+
+// make the use of media queries really easy
+@include gridle_register_state ( mobile , (
+	max-width : rem-calc(480),
+	gutter-width : rem-calc(10)
+) );
+
+// even with full custom queries :
+@include gridle_register_state ( landscape, (
+	query : "(orientation : landscape)"
+) );

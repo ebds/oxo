@@ -20,9 +20,7 @@
 			<h2 class="oxo__headline--secondary">Dein Konsolen-Informationsportal</h2>
 		</div>
 		<div class="oxo__page-wrapper">
-			<h1 class="oxo__headline--first">
-				Coming soon
-			</h1>
+			<?php include 'scripts/modules/console-chooser/console-chooser.php'; ?>
 		</div>
 		<div class="oxo__hud--bottom">
 			<nav class="oxo__nav">

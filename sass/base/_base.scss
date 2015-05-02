@@ -14,16 +14,16 @@ body,
 }
 
 .oxo__page-wrapper {
+	position: absolute;
+	left: 50%;
+	z-index: 999;
+	top: 45%;
+	@include transform(translate(-50%,-45%));
 
 	.oxo__headline--first {
 		font-size: rem-calc(200);
 		text-transform: uppercase;
-		position: absolute;
-		left: 50%;
-		z-index: 999;
-		top: 45%;
 		text-align: center;
 		color: white;
-		@include transform(translate(-50%,-45%));
 	}
 }

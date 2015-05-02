@@ -44,6 +44,7 @@ module.exports = function(grunt) {
 					],
 					'js/build/main.min.js': [
 						'js/vendor/jquery-2.1.3.js',
+				//		'js/vendor/paper-full.min.js',
 						'js/main.js'
 					]
 				}
@@ -59,6 +60,7 @@ module.exports = function(grunt) {
 					],
 					'js/build/main.min.js': [
 						'js/vendor/jquery-2.1.3.js',
+					//	'js/vendor/paper-full.min.js',
 						'js/modules/*.js',
 						'js/main.js'
 					]
