@@ -6,3 +6,5 @@
 /node_modules/
 /stylesheets/
 /.sass-cache/
+/bower_components/**
+/bower_components/
