@@ -2,74 +2,24 @@
 
 	.oxo__list-item {
 		position: relative;
+		border: 3px solid $white;
+		overflow: hidden;
+		background-color: rgba(255,255,255,.5);
+		width: rem-calc(125);
+		height: rem-calc(125);
+		margin: rem-calc(20);
+		float: left;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 0 rem-calc(10);
+		opacity: .5;
 
-		height: rem-calc(87);
-		margin: rem-calc(43) rem-calc(5);
-		background-size: auto rem-calc(160);
-		background-position: center;
-		border-left: solid rem-calc(7) #3df3f3;
-		border-right: solid rem-calc(7) #3df3f3;
+		@include box-shadow(0 0 20px rgba(255,255,255,0.8));
+		@include border-radius(rem-calc(5));
 
-		@include box-shadow(0 0 rem-calc(25) rgba(61,243,243,0.9));
-
-		:after {
-			content: "";
-			position: absolute;
-			top:rem-calc(3);
-			left: 0;
-			width: rem-calc(95);
-			height: rem-calc(52);
-			z-index: 2;
-			background: inherit;
-		}
-
-		.hexTop,
-		.hexBottom {
-			position: absolute;
-			z-index: 1;
-			width: rem-calc(90);
-			height: rem-calc(90);
-			overflow: hidden;
-			background: inherit;
-			left: rem-calc(14);
-
-			@include transform(scaleY(0.5774) rotate(-45deg));
-			//@include box-shadow(0 0 25px rgba(61,243,243,0.9));
-		}
-
-		/*counter transform the bg image on the caps*/
-		.hexTop:after,
-		.hexBottom:after {
-			content: "";
-			position: absolute;
-			width: rem-calc(124);
-			height: rem-calc(90);
-
-			@include transform(rotate(45deg) scaleY(1.7321) translateY(rem-calc(-40)));
-			-webkit-transform-origin: 0 0;
-			-ms-transform-origin: 0 0;
-			transform-origin: 0 0;
-			background: inherit;
-		}
-
-		.hexTop {
-			top: rem-calc(-48);
-			border-top: solid rem-calc(5) #3df3f3;
-			border-right: solid rem-calc(5) #3df3f3;
-
-			&:after {
-				background-position: center top;
-			}
-		}
-
-		.hexBottom {
-			bottom: rem-calc(-48);
-			border-bottom: solid rem-calc(7) #3df3f3;
-			border-left: solid rem-calc(7) #3df3f3;
-
-			&:after {
-				background-position: center bottom;
-			}
+		&:hover {
+			opacity: 1;
+			@include transition(opacity 1s);
 		}
 
 		.oxo__link {
@@ -77,11 +27,14 @@
 			overflow: hidden;
 		}
 
-		@include gridle(2);
-
 		.oxo__image {
 			width: 100%;
 			height: auto;
 		}
 	}
+
+	.oxo__content-wrapper {
+		display: none;
+	}
+
 }

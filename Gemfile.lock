@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonjs (0.2.7)
+    font-awesome-less (4.2.0)
+      less (~> 2.4.0)
+    less (2.4.0)
+      commonjs (~> 0.2.7)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  font-awesome-less
