@@ -1,6 +1,6 @@
 /*******************************************************************************
 ** The OXO Main Stylesheet                                                    **
-** All files needs to be included here                                        **
+** All files need to be included here                                        **
 **                                                                            **
 *******************************************************************************/
 @import "compass/reset";
@@ -9,6 +9,9 @@
 @import "config/config";
 
 @import "base/_glitch";
+@import "base/vendor/foundation/foundation/_settings";
+@import "base/vendor/foundation/_foundation";
+@import "base/vendor/mg-popup/mg-popup";
 //@import "base/mixins/hexagon";
 
 @import "base/base";

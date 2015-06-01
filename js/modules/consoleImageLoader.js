@@ -5,11 +5,6 @@
 
 		consoles.each(function() {
 			img = $(this).attr('data-img');
-
-			$(this).click(function(event) {
-				event.preventDefault();
-			});
-
 			$(this).css('background-image', 'url(' + img + ')');
 		});
 

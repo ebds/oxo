@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// Header of the HUD
+// Region: Header
+// -----------------------------------------------------------------------------
+
+.oxo__hud {
+
+    &--top {
+        position: absolute;
+        left: 50%;
+        z-index: 999;
+        width: rem-calc(175);
+        top: 0;
+        text-align: center;
+        color: white;
+        @include transform(translate(-50%,0));
+
+
+        .oxo__headline {
+
+            &--first {
+        		margin-top: 5%;
+        		font-size: rem-calc(50);
+        		text-align: center;
+
+        		@include textGlitch("OXO", 17, white, transparent, transparent, transparent, 900, 115);
+            }
+
+            &--secondary {
+                font-size: rem-calc(16);
+            }
+        }
+
+        .oxo__image {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
