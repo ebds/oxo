@@ -1,0 +1,269 @@
+<tag0:cortex xmlns:tag0="http://www.deutsche-digitale-bibliothek.de/cortex">
+    <tag0:properties>
+        <tag0:item-id>EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF</tag0:item-id>
+        <tag0:ingest-id>20140624</tag0:ingest-id>
+        <tag0:ingest-date>2015-04-17T08:58:37+0200</tag0:ingest-date>
+        <tag0:cortex-type>Kultur</tag0:cortex-type>
+    </tag0:properties>
+    <tag0:edm>
+        <ns3:RDF xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" ns3:about="http://www.museum-digital.de/berlin-DE-MUS-911113/1316">
+                <edm:aggregatedCHO xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:resource="http://www.deutsche-digitale-bibliothek.de/item/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF"/>
+                <edm:dataProvider xmlns:edm="http://www.europeana.eu/schemas/edm/">Computerspielemuseum</edm:dataProvider>
+                <edm:dataProvider xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:resource="C2LGCGOG3HBN5XRHOCSI3OWKD52FQ4BC"/>
+                <edm:isShownAt xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:resource="http://www.museum-digital.de/berlin/index.php?t=objekt&oges=1316"/>
+                <edm:provider xmlns:edm="http://www.europeana.eu/schemas/edm/">Deutsche Digitale Bibliothek</edm:provider>
+            </ore:Aggregation>
+            <edm:WebResource xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="http://www.museum-digital.de/berlin/index.php?t=objekt&oges=1316">
+                <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" ns3:resource="http://ddb.vocnet.org/medientyp/mt002"/>
+                <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/" ns3:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            </edm:WebResource>
+            <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" ns3:about="http://ddb.vocnet.org/medientyp/mt002">
+                <skos:notation>mediatype_002</skos:notation>
+            </skos:Concept>
+            <edm:Agent xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="C2LGCGOG3HBN5XRHOCSI3OWKD52FQ4BC">
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Computerspielemuseum</skos:prefLabel>
+                <ns3:type ns3:resource="http://ddb.vocnet.org/sparte/sparte006"/>
+            </edm:Agent>
+            <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" ns3:about="http://ddb.vocnet.org/sparte/sparte006">
+                <skos:notation>sec_06</skos:notation>
+            </skos:Concept>
+            <edm:ProvidedCHO xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="http://www.deutsche-digitale-bibliothek.de/item/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF">
+                <edm:currentLocation ns3:resource="ARL4X7DAXFQ6TI6VYWXVSBAARVIRI6AO"/>
+                <edm:hasType ns3:resource="4GSK72VIH6APDW7DGX62QXTGM23CABBV"/>
+                <edm:hasType ns3:resource="2UAVPM3EJKP2FRLAQA75NGQNXJTMQWL7"/>
+                <edm:hasMet ns3:resource="GR6KGYZGOG37NB4PFYNGQCSUPQK4CR5J"/>
+                <edm:hasMet ns3:resource="LF3OFOR77CWLOINAMWHTFBC6Y5S3B5I5"/>
+                <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    Nintendos späte 16-Bit-Antwort<br> Der Marktführer ließ sich viel Zeit, bevor er es seinen Konkurrenten NEC und Sega gleichtat und mit dem SNES seine erste 16-Bit-Konsole auf den Markt brachte. Lange vertraute Nintendo auf den Erfolg seines 8-Bitters NES und zögerte, sich selbst mit einer neuen Konsole Konkurrenz zu machen. <br> In der Zwischenzeit jedoch eroberten die PC-Engine und der Mega Drive erhebliche Marktanteile und so musste Nintendo große Anstrengungen unternehmen, nicht den Anschluss zu verlieren. Zum ersten Mal schien der Platzhirsch in die Defensive zu geraten. So dauerte es in den USA noch bis 1991 und in Europa bis 1992, dass das SNES auf den Markt kommen konnte. Auch seinen Lizenznehmern gegenüber hatte Nintendo nun eine schlechtere Stellung, da diese mittlerweile erfolgreich Spiele für die Systeme der Konkurrenz verkauften.<br> Obwohl Nintendo seitdem nicht mehr so unangefochten die Bedingungen diktieren konnte, wie noch in den 80er Jahren, sollte letztendlich auch das SNES ein Erfolg werden. Neben eigenen Stärken hinsichtlich Erfahrung und Marketing, waren dafür allerdings auch Fehler der Konkurrenz verantwortlich, die es - wie im Falle Sega - versäumte, mit einer entschiedenen Produktpolitik den Erfolg des Mega Drive fortzuführen.
+                </dc:description>
+                <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Spielmaschinen</dc:type>
+                <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Videospielkonsole</dc:type>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)
+                </dc:title>
+            </edm:ProvidedCHO>
+            <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" ns3:about="4GSK72VIH6APDW7DGX62QXTGM23CABBV">
+                <skos:prefLabel>Spielmaschinen</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" ns3:about="2UAVPM3EJKP2FRLAQA75NGQNXJTMQWL7">
+                <skos:prefLabel>Videospielkonsole</skos:prefLabel>
+            </skos:Concept>
+            <edm:Event xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="GR6KGYZGOG37NB4PFYNGQCSUPQK4CR5J">
+                <edm:hasType ns3:resource="http://terminology.lido-schema.org/lido00007"/>
+                <crm:P11_had_participant xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#" ns3:resource="http://d-nb.info/gnd/4320784-4"/>
+                <edm:occuredAt ns3:resource="http://ddb.vocnet.org/zeitvokabular/dat00004"/>
+                <edm:occuredAt ns3:resource="http://ddb.vocnet.org/zeitvokabular/dat00013"/>
+            </edm:Event>
+            <edm:Agent xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="http://d-nb.info/gnd/4320784-4">
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Nintendo</skos:prefLabel>
+                <edm:wasPresentAt ns3:resource="GR6KGYZGOG37NB4PFYNGQCSUPQK4CR5J"/>
+            </edm:Agent>
+            <edm:TimeSpan xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="http://ddb.vocnet.org/zeitvokabular/dat00004">
+                <skos:notation xmlns:skos="http://www.w3.org/2004/02/skos/core#">time_62000</skos:notation>
+            </edm:TimeSpan>
+            <edm:TimeSpan xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="http://ddb.vocnet.org/zeitvokabular/dat00013">
+                <skos:notation xmlns:skos="http://www.w3.org/2004/02/skos/core#">time_62090</skos:notation>
+            </edm:TimeSpan>
+            <edm:Event xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="LF3OFOR77CWLOINAMWHTFBC6Y5S3B5I5">
+                <edm:hasType ns3:resource="http://terminology.lido-schema.org/lido00003"/>
+            </edm:Event>
+            <edm:Place xmlns:edm="http://www.europeana.eu/schemas/edm/" ns3:about="ARL4X7DAXFQ6TI6VYWXVSBAARVIRI6AO">
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Computerspielemuseum Berlin</skos:prefLabel>
+            </edm:Place>
+        </ns3:RDF>
+    </tag0:edm>
+    <tag0:indexing-profile>
+        <tag0:item-id>EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF</tag0:item-id>
+        <tag0:facet name="time_fct">
+            <tag0:value>time_62000</tag0:value>
+            <tag0:value>time_62090</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="place_fct">
+            <tag0:value>Computerspielemuseum Berlin</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="affiliate_fct_normdata">
+            <tag0:value>http://d-nb.info/gnd/4320784-4</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="affiliate_fct_role_normdata">
+            <tag0:value>http://d-nb.info/gnd/4320784-4</tag0:value>
+            <tag0:value>
+                http://d-nb.info/gnd/4320784-4_1_affiliate_fct_involved
+            </tag0:value>
+        </tag0:facet>
+        <tag0:facet name="affiliate_fct">
+            <tag0:value>Nintendo</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="affiliate_fct_role">
+            <tag0:value>Nintendo</tag0:value>
+            <tag0:value>Nintendo_1_affiliate_fct_involved</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="keywords_fct">
+            <tag0:value>Spielmaschinen</tag0:value>
+            <tag0:value>Videospielkonsole</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="type_fct">
+            <tag0:value>mediatype_002</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="sector_fct">
+            <tag0:value>sec_06</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="provider_fct">
+            <tag0:value>Computerspielemuseum</tag0:value>
+        </tag0:facet>
+        <tag0:facet name="last_update">
+            <tag0:value>2015-04-17T08:58:37+0200</tag0:value>
+        </tag0:facet>
+    </tag0:indexing-profile>
+    <tag0:preview type="Kultur" media="image">
+        <tag0:title>
+            Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)
+        </tag0:title>
+        <tag0:subtitle>Videospielkonsole</tag0:subtitle>
+        <tag0:thumbnail href="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/list/1.jpg"/>
+    </tag0:preview>
+    <tag0:view>
+        <ns4:item xmlns:ns4="http://www.deutsche-digitale-bibliothek.de/item">
+            <ns4:identifier>DE-MUS-911113/1316</ns4:identifier>
+            <ns4:label>
+                Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)
+            </ns4:label>
+            <ns4:title>
+                Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)
+            </ns4:title>
+            <ns4:subtitle>Videospielkonsole</ns4:subtitle>
+            <ns4:rights>Computerspielemuseum Berlin</ns4:rights>
+            <ns4:metadata-rights/>
+            <ns4:origin>
+                http://www.museum-digital.de/berlin/index.php?t=objekt&oges=1316
+            </ns4:origin>
+            <ns4:category>Kultur</ns4:category>
+            <ns4:media>image</ns4:media>
+            <ns4:thumbnail/>
+            <ns4:latitude/>
+            <ns4:longitude/>
+            <ns4:viewers/>
+            <ns4:license xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns3:resource="http://creativecommons.org/licenses/by-sa/4.0/" url="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                Namensnennung – Weitergabe unter gleichen Bedingungen
+            </ns4:license>
+            <ns4:institution>
+                <ns4:url>http://www.computerspielemuseum.de</ns4:url>
+                <ns4:id>EEWSEIEIF5HJJRHOZGSQM6ELTAWAI7CF</ns4:id>
+                <ns4:name>Computerspielemuseum</ns4:name>
+                <ns4:logo-institution-ddbid>EEWSEIEIF5HJJRHOZGSQM6ELTAWAI7CF</ns4:logo-institution-ddbid>
+            </ns4:institution>
+            <ns4:fields usage="display">
+                <ns4:field id="flex_mus_neu_020">
+                    <ns4:name>Objektbezeichnung</ns4:name>
+                    <ns4:value>Videospielkonsole</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_050">
+                    <ns4:name>Objektbeschreibung</ns4:name>
+                    <ns4:value>
+                        Nintendos späte 16-Bit-Antwort<br> Der Marktführer ließ sich viel Zeit, bevor er es seinen Konkurrenten NEC und Sega gleichtat und mit dem SNES seine erste 16-Bit-Konsole auf den Markt brachte. Lange vertraute Nintendo auf den Erfolg seines 8-Bitters NES und zögerte, sich selbst mit einer neuen Konsole Konkurrenz zu machen. <br> In der Zwischenzeit jedoch eroberten die PC-Engine und der Mega Drive erhebliche Marktanteile und so musste Nintendo große Anstrengungen unternehmen, nicht den Anschluss zu verlieren. Zum ersten Mal schien der Platzhirsch in die Defensive zu geraten. So dauerte es in den USA noch bis 1991 und in Europa bis 1992, dass das SNES auf den Markt kommen konnte. Auch seinen Lizenznehmern gegenüber hatte Nintendo nun eine schlechtere Stellung, da diese mittlerweile erfolgreich Spiele für die Systeme der Konkurrenz verkauften.<br> Obwohl Nintendo seitdem nicht mehr so unangefochten die Bedingungen diktieren konnte, wie noch in den 80er Jahren, sollte letztendlich auch das SNES ein Erfolg werden. Neben eigenen Stärken hinsichtlich Erfahrung und Marketing, waren dafür allerdings auch Fehler der Konkurrenz verantwortlich, die es - wie im Falle Sega - versäumte, mit einer entschiedenen Produktpolitik den Erfolg des Mega Drive fortzuführen.
+                    </ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_100">
+                    <ns4:name>Ereignis</ns4:name>
+                    <ns4:value>Herstellung</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_110">
+                    <ns4:name>(wer)</ns4:name>
+                    <ns4:value xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns3:resource="http://d-nb.info/gnd/4320784-4">Nintendo</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_130">
+                    <ns4:name>(wann)</ns4:name>
+                    <ns4:value>1990</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_340">
+                    <ns4:name>Klassifikation</ns4:name>
+                    <ns4:value>Spielmaschinen</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_400">
+                    <ns4:name>Standort</ns4:name>
+                    <ns4:value>Computerspielemuseum Berlin</ns4:value>
+                </ns4:field>
+                <ns4:field id="flex_mus_neu_410">
+                    <ns4:name>Inventarnummer</ns4:name>
+                    <ns4:value>9677</ns4:value>
+                </ns4:field>
+            </ns4:fields>
+            <ns4:fields usage="index">
+                <ns4:field xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns3:resource="http://purl.org/dc/elements/1.1/title" id="title">
+                    <ns4:name>Title</ns4:name>
+                    <ns4:value>
+                        Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)
+                    </ns4:value>
+                </ns4:field>
+                <ns4:field xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns3:resource="http://purl.org/dc/elements/1.1/description" id="description">
+                    <ns4:name>Beschreibung</ns4:name>
+                    <ns4:value>
+                        Nintendos späte 16-Bit-Antwort<br> Der Marktführer ließ sich viel Zeit, bevor er es seinen Konkurrenten NEC und Sega gleichtat und mit dem SNES seine erste 16-Bit-Konsole auf den Markt brachte. Lange vertraute Nintendo auf den Erfolg seines 8-Bitters NES und zögerte, sich selbst mit einer neuen Konsole Konkurrenz zu machen. <br> In der Zwischenzeit jedoch eroberten die PC-Engine und der Mega Drive erhebliche Marktanteile und so musste Nintendo große Anstrengungen unternehmen, nicht den Anschluss zu verlieren. Zum ersten Mal schien der Platzhirsch in die Defensive zu geraten. So dauerte es in den USA noch bis 1991 und in Europa bis 1992, dass das SNES auf den Markt kommen konnte. Auch seinen Lizenznehmern gegenüber hatte Nintendo nun eine schlechtere Stellung, da diese mittlerweile erfolgreich Spiele für die Systeme der Konkurrenz verkauften.<br> Obwohl Nintendo seitdem nicht mehr so unangefochten die Bedingungen diktieren konnte, wie noch in den 80er Jahren, sollte letztendlich auch das SNES ein Erfolg werden. Neben eigenen Stärken hinsichtlich Erfahrung und Marketing, waren dafür allerdings auch Fehler der Konkurrenz verantwortlich, die es - wie im Falle Sega - versäumte, mit einer entschiedenen Produktpolitik den Erfolg des Mega Drive fortzuführen.
+                    </ns4:value>
+                </ns4:field>
+                <ns4:field id="ranking">
+                    <ns4:name>Ranking</ns4:name>
+                    <ns4:value>Videospielkonsole</ns4:value>
+                    <ns4:value>Spielmaschinen</ns4:value>
+                    <ns4:value>
+                        Nintendos späte 16-Bit-Antwort<br> Der Marktführer ließ sich viel Zeit, bevor er es seinen Konkurrenten NEC und Sega gleichtat und mit dem SNES seine erste 16-Bit-Konsole auf den Markt brachte. Lange vertraute Nintendo auf den Erfolg seines 8-Bitters NES und zögerte, sich selbst mit einer neuen Konsole Konkurrenz zu machen. <br> In der Zwischenzeit jedoch eroberten die PC-Engine und der Mega Drive erhebliche Marktanteile und so musste Nintendo große Anstrengungen unternehmen, nicht den Anschluss zu verlieren. Zum ersten Mal schien der Platzhirsch in die Defensive zu geraten. So dauerte es in den USA noch bis 1991 und in Europa bis 1992, dass das SNES auf den Markt kommen konnte. Auch seinen Lizenznehmern gegenüber hatte Nintendo nun eine schlechtere Stellung, da diese mittlerweile erfolgreich Spiele für die Systeme der Konkurrenz verkauften.<br> Obwohl Nintendo seitdem nicht mehr so unangefochten die Bedingungen diktieren konnte, wie noch in den 80er Jahren, sollte letztendlich auch das SNES ein Erfolg werden. Neben eigenen Stärken hinsichtlich Erfahrung und Marketing, waren dafür allerdings auch Fehler der Konkurrenz verantwortlich, die es - wie im Falle Sega - versäumte, mit einer entschiedenen Produktpolitik den Erfolg des Mega Drive fortzuführen.
+                    </ns4:value>
+                </ns4:field>
+                <ns4:field id="begin_time">
+                    <ns4:name>Anfang</ns4:name>
+                    <ns4:value>726469</ns4:value>
+                </ns4:field>
+                <ns4:field id="end_time">
+                    <ns4:name>Ende</ns4:name>
+                    <ns4:value>726833</ns4:value>
+                </ns4:field>
+                <ns4:field id="license">
+                    <ns4:name>Lizenz</ns4:name>
+                    <ns4:value>http://creativecommons.org/licenses/by-sa/4.0/</ns4:value>
+                </ns4:field>
+                <ns4:field id="license_group">
+                    <ns4:name>Lizenzstatus</ns4:name>
+                    <ns4:value>rights_002</ns4:value>
+                </ns4:field>
+                <ns4:field id="grid_preview">
+                    <ns4:name>grid_preview</ns4:name>
+                    <ns4:value>true</ns4:value>
+                </ns4:field>
+                <ns4:field id="digitalisat">
+                    <ns4:name>digitalisat</ns4:name>
+                    <ns4:value>true</ns4:value>
+                </ns4:field>
+            </ns4:fields>
+        </ns4:item>
+    </tag0:view>
+    <tag0:metadata-record>
+        <lido:lidoWrap xmlns:lido="http://www.lido-schema.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd" xmlns:xalan="http://xml.apache.org/xalan" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd"> <lido:lido> <lido:lidoRecID lido:source="http://www.museum-digital.de/berlin" lido:type="local">DE-MUS-911113/1316</lido:lidoRecID> <lido:category /> <lido:descriptiveMetadata xml:lang="de"> <lido:objectClassificationWrap> <lido:objectWorkTypeWrap> <lido:objectWorkType> <lido:term lido:addedSearchTerm="no">Videospielkonsole</lido:term> </lido:objectWorkType> </lido:objectWorkTypeWrap> <lido:classificationWrap> <lido:classification> <lido:conceptID lido:source="local" lido:type="collection_id">41</lido:conceptID> <lido:term lido:addedSearchTerm="no">Spielmaschinen</lido:term> </lido:classification> </lido:classificationWrap> </lido:objectClassificationWrap> <lido:objectIdentificationWrap> <lido:titleWrap> <lido:titleSet> <lido:appellationValue lido:pref="preferred">Nintendo Super Famicon / Super Nintendo Entertainment System (SNES)</lido:appellationValue> </lido:titleSet> </lido:titleWrap> <lido:repositoryWrap> <lido:repositorySet lido:type="current"> <lido:repositoryName> <lido:legalBodyID lido:type="isil">DE-MUS-911113</lido:legalBodyID> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> <lido:legalBodyWeblink>http://www.computerspielemuseum.de/</lido:legalBodyWeblink> </lido:repositoryName> <lido:workID lido:type="inventory number">9677</lido:workID> <lido:repositoryLocation> <lido:namePlaceSet> <lido:appellationValue>Berlin</lido:appellationValue> </lido:namePlaceSet> </lido:repositoryLocation> </lido:repositorySet> </lido:repositoryWrap> <lido:objectDescriptionWrap> <lido:objectDescriptionSet> <lido:descriptiveNoteValue>Nintendos späte 16-Bit-Antwort&lt;br&gt; Der Marktführer ließ sich viel Zeit, bevor er es seinen Konkurrenten NEC und Sega gleichtat und mit dem SNES seine erste 16-Bit-Konsole auf den Markt brachte. Lange vertraute Nintendo auf den Erfolg seines 8-Bitters NES und zögerte, sich selbst mit einer neuen Konsole Konkurrenz zu machen. &lt;br&gt; In der Zwischenzeit jedoch eroberten die PC-Engine und der Mega Drive erhebliche Marktanteile und so musste Nintendo große Anstrengungen unternehmen, nicht den Anschluss zu verlieren. Zum ersten Mal schien der Platzhirsch in die Defensive zu geraten. So dauerte es in den USA noch bis 1991 und in Europa bis 1992, dass das SNES auf den Markt kommen konnte. Auch seinen Lizenznehmern gegenüber hatte Nintendo nun eine schlechtere Stellung, da diese mittlerweile erfolgreich Spiele für die Systeme der Konkurrenz verkauften.&lt;br&gt; Obwohl Nintendo seitdem nicht mehr so unangefochten die Bedingungen diktieren konnte, wie noch in den 80er Jahren, sollte letztendlich auch das SNES ein Erfolg werden. Neben eigenen Stärken hinsichtlich Erfahrung und Marketing, waren dafür allerdings auch Fehler der Konkurrenz verantwortlich, die es - wie im Falle Sega - versäumte, mit einer entschiedenen Produktpolitik den Erfolg des Mega Drive fortzuführen.</lido:descriptiveNoteValue> <lido:sourceDescriptiveNote>Computerspielemuseum Berlin</lido:sourceDescriptiveNote> </lido:objectDescriptionSet> </lido:objectDescriptionWrap> <lido:objectMeasurementsWrap> <lido:objectMeasurementsSet> <lido:displayObjectMeasurements /> </lido:objectMeasurementsSet> </lido:objectMeasurementsWrap> </lido:objectIdentificationWrap> <lido:eventWrap> <lido:eventSet> <lido:event> <lido:eventID lido:type="local">2093</lido:eventID> <lido:eventType> <lido:term lido:addedSearchTerm="no">Hergestellt</lido:term> </lido:eventType> <lido:eventName> <lido:appellationValue>Hergestellt --- Objekt 1316</lido:appellationValue> </lido:eventName> <lido:eventActor> <lido:displayActorInRole>Nintendo</lido:displayActorInRole> <lido:actorInRole> <lido:actor> <lido:actorID lido:source="Wikipedia" lido:type="URI">http://de.wikipedia.org/wiki/Nintendo</lido:actorID> <lido:actorID lido:source="gnd" lido:type="local">4320784-4</lido:actorID> <lido:nameActorSet> <lido:appellationValue>Nintendo</lido:appellationValue> </lido:nameActorSet> <lido:vitalDatesActor> <lido:earliestDate /> <lido:latestDate /> </lido:vitalDatesActor> </lido:actor> </lido:actorInRole> </lido:eventActor> <lido:eventDate> <lido:displayDate>1990</lido:displayDate> <lido:date> <lido:earliestDate>1990</lido:earliestDate> <lido:latestDate>1990</lido:latestDate> </lido:date> </lido:eventDate> </lido:event> </lido:eventSet> <lido:eventSet> <lido:event> <lido:eventType> <lido:term>Event (non-specified)</lido:term> </lido:eventType> <lido:eventMaterialsTech> <lido:displayMaterialsTech /> </lido:eventMaterialsTech> </lido:event> </lido:eventSet> </lido:eventWrap> <lido:objectRelationWrap> <lido:subjectWrap /> <lido:relatedWorksWrap /> </lido:objectRelationWrap> </lido:descriptiveMetadata> <lido:administrativeMetadata xml:lang="de"> <lido:rightsWorkWrap> <lido:rightsWorkSet> <lido:rightsHolder> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> </lido:rightsHolder> </lido:rightsWorkSet> </lido:rightsWorkWrap> <lido:recordWrap> <lido:recordID lido:type="museum-digital">1316</lido:recordID> <lido:recordType> <lido:term lido:addedSearchTerm="no">item</lido:term> </lido:recordType> <lido:recordSource lido:type="dataProvider"> <lido:legalBodyName> <lido:appellationValue>museum-digital</lido:appellationValue> </lido:legalBodyName> <lido:legalBodyWeblink>http://www.museum-digital.de</lido:legalBodyWeblink> </lido:recordSource> <lido:recordSource> <lido:legalBodyID lido:type="isil">DE-MUS-911113</lido:legalBodyID> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> </lido:recordSource> <lido:recordRights> <lido:rightsType> <lido:term lido:addedSearchTerm="no">CC0</lido:term> </lido:rightsType> <lido:rightsHolder> <lido:legalBodyID lido:type="isil">DE-MUS-911113</lido:legalBodyID> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> <lido:legalBodyWeblink>http://www.computerspielemuseum.de/</lido:legalBodyWeblink> </lido:rightsHolder> </lido:recordRights> <lido:recordInfoSet> <lido:recordInfoLink>http://www.museum-digital.de/berlin/index.php?t=objekt&amp;oges=1316</lido:recordInfoLink> <lido:recordMetadataDate>2015-03-25 11:41:10</lido:recordMetadataDate> </lido:recordInfoSet> </lido:recordWrap> <lido:resourceWrap> <lido:resourceSet lido:sortorder="1"> <lido:resourceID lido:type="local" lido:source="image">2039</lido:resourceID> <lido:resourceRepresentation lido:type="image_thumb"> <lido:linkResource lido:formatResource="image/jpeg">http://www.museum-digital.de/berlin/images/201310/100h_30161615535.jpg</lido:linkResource> </lido:resourceRepresentation> <lido:resourceRepresentation lido:type="image_preview"> <lido:linkResource lido:formatResource="image/jpeg">http://www.museum-digital.de/berlin/images/201310/200w_30161615535.jpg</lido:linkResource> </lido:resourceRepresentation> <lido:resourceRepresentation lido:type="image_master"> <lido:linkResource lido:formatResource="image/jpeg">http://www.museum-digital.de/berlin/images/201310/30161615535.jpg</lido:linkResource> </lido:resourceRepresentation> <lido:resourceType> <lido:term>image</lido:term> </lido:resourceType> <lido:resourceRelType> <lido:term>Hauptansicht</lido:term> </lido:resourceRelType> <lido:resourceDescription>Gesamtansicht</lido:resourceDescription> <lido:resourceSource lido:type="owner"> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> </lido:resourceSource> <lido:resourceSource lido:type="creator"> <lido:legalBodyName> <lido:appellationValue /> </lido:legalBodyName> </lido:resourceSource> <lido:rightsResource> <lido:rightsType> <lido:conceptID lido:type="uri">http://creativecommons.org/licenses/by-sa/4.0/</lido:conceptID> <lido:term>CC BY-SA</lido:term> </lido:rightsType> <lido:rightsHolder> <lido:legalBodyName> <lido:appellationValue>Computerspielemuseum Berlin</lido:appellationValue> </lido:legalBodyName> </lido:rightsHolder> <lido:creditLine /> </lido:rightsResource> </lido:resourceSet> </lido:resourceWrap> </lido:administrativeMetadata> </lido:lido> </lido:lidoWrap>
+    </tag0:metadata-record>
+    <tag0:provider-info>
+        <tag0:provider-domains>
+            <tag0:provider-domain>Museum</tag0:provider-domain>
+            <tag0:provider-domain/>
+            <tag0:provider-domain/>
+        </tag0:provider-domains>
+        <tag0:provider-name>Computerspielemuseum</tag0:provider-name>
+        <tag0:provider-parent-id/>
+        <tag0:provider-uri>http://www.computerspielemuseum.de</tag0:provider-uri>
+        <tag0:provider-email/>
+        <tag0:provider-collection/>
+        <tag0:provider-item-id>DE-MUS-911113/1316</tag0:provider-item-id>
+        <tag0:provider-item-id-type/>
+        <tag0:provider-id>00015032</tag0:provider-id>
+        <tag0:provider-ddb-id>EEWSEIEIF5HJJRHOZGSQM6ELTAWAI7CF</tag0:provider-ddb-id>
+        <tag0:provider-logo/>
+        <tag0:provider-longitude>13.442</tag0:provider-longitude>
+        <tag0:provider-latitude>52.51769</tag0:provider-latitude>
+        <tag0:provider-state/>
+    </tag0:provider-info>
+    <tag0:binaries>
+        <tag0:binary position="1" category="full" mimetype="image/jpeg" name3="© Computerspielemuseum Berlin" primary="true" name="Gesamtansicht" path="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/full/1.jpg" name2="Foto: Computerspielemuseum Berlin"/>
+        <tag0:binary position="1" category="list" mimetype="image/jpeg" name3="© Computerspielemuseum Berlin" primary="true" name="Gesamtansicht" path="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/list/1.jpg" name2="Foto: Computerspielemuseum Berlin"/>
+        <tag0:binary position="1" category="grid" mimetype="image/jpeg" name3="© Computerspielemuseum Berlin" primary="true" name="Gesamtansicht" path="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/grid/1.jpg" name2="Foto: Computerspielemuseum Berlin"/>
+        <tag0:binary position="1" category="mvth" mimetype="image/jpeg" name3="© Computerspielemuseum Berlin" primary="true" name="Gesamtansicht" path="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/mvth/1.jpg" name2="Foto: Computerspielemuseum Berlin"/>
+        <tag0:binary position="1" category="mvpr" mimetype="image/jpeg" name3="© Computerspielemuseum Berlin" primary="true" name="Gesamtansicht" path="/binary/EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF/mvpr/1.jpg" name2="Foto: Computerspielemuseum Berlin"/>
+    </tag0:binaries>
+</tag0:cortex>

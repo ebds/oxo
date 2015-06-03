@@ -4,6 +4,7 @@
 		</div>
 		<div class="oxo__modal__container">
 			<?php include 'atari-800.php'; ?>
+			<?php include 'pages/snes.php'; ?>
 		</div>
 		<div class="oxo__hud--bottom">
 			<nav class="oxo__nav">
