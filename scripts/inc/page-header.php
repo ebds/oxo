@@ -1,3 +1,6 @@
+<?php
+	require_once('scripts/inc/parseXML.php');
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>

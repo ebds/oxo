@@ -1,8 +1,17 @@
+<?php
+    $item = 'EQ2P2QBDLNUJQVLAR3I2CUGZ5IEW4LEF';
+    $res = json_decode(json_encode($entityResult), true);
+    $input = array(explode(",", $res));
+?>
 <div id="snes" class="reveal-modal" data-reveal aria-labelledby="Super Nintendo Entertainment System" aria-hidden="true" role="dialog">
     <a class="close-reveal-modal" aria-label="Close">
         <i class="fa fa-close fa-2x"></i>
     </a>
-    <h2 class="oxo__modal__title">Super Nintendo Entertainment System (SNES)</h2>
+    <h2 class="oxo__modal__title">
+    <?php
+        echo $input[0][1];
+    ?>
+    </h2>
     <div class="reveal-modal__content">
         <ul class="tabs" data-tab>
           <li class="tab-title active"><a href="#panel4">Info</a></li>
@@ -12,7 +21,13 @@
         </ul>
         <div class="tabs-content">
           <div class="content active" id="panel4">
-            <h3 class="oxo__headline--third">Ataris Einstieg in die Welt der Heimcomputer</h3>
+            <h3 class="oxo__headline--third">
+                <?php
+                echo $input[0][1];
+                ?>
+            </h3>
+            <p class="oxo__paragraph">
+            </p>
 
           </div>
           <div class="content" id="panel5">
